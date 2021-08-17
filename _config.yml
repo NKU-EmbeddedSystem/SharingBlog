@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://oslab.sharing.io
-root: /
+url: https://nku-embeddedsystem.github.io/share
+root: /share/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,3 +105,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: matery
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:NKU-EmbeddedSystem/share.git
+  branch: master

@@ -5,6 +5,8 @@
 ```Shell
 sudo apt install npm
 npm i hexo-cli
+git clone https://github.com/NKU-EmbeddedSystem/SharingBlog.git
+cd SharingBlog
 ```
 
 ## 新建博客

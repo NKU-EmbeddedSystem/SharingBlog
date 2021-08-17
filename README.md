@@ -56,3 +56,5 @@ hexo d #上传到gitpages的仓库
 hexo g
 hexo s
 ```
+
+## 想要换骚气的签名以及照片可以更改_config.yml

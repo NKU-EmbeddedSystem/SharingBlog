@@ -48,7 +48,7 @@ git push origin master
 hexo g #生成html文件
 hexo d #上传到gitpages的仓库
 ```
-效果显示在https://nku-embeddedsystem.github.io/share/中
+效果显示在https://nku-embeddedsystem.github.io/share
 
 ## 本地调试
 由于提交到git pages上会有延时，我们可以在localhost:4000中看到生成后的效果

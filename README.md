@@ -16,7 +16,7 @@ hexo new post "博客名"
 ```
 
 ## 编辑博客
-内容以Markdown格式编写即可。需要改一下文件头，title和author改成自己的名字，tags写读书或者是论文分享。别的会由hexo自动生成。
+内容以Markdown格式编写即可。需要改一下文件头，title和author改成自己的名字，categories写读书或者是论文分享, tags加自己想要的，以-间隔。别的会由hexo自动生成。
 ```Markdown
 ---
 title: 内存管理
@@ -38,16 +38,19 @@ categories: 读书
 
 ## 更改并提交到网站
 ```Shell
-hexo g #生成html文件
-hexo d #上传到gitpages的仓库
 # 以下步骤是为了把自己的博客放进主分支，如果不上传别人再生成一次你的博客就消失了
 git add -A
 git commit -m "new blogs"
 git pull origin master
 git push origin master
+
+# 发行到git pages
+hexo g #生成html文件
+hexo d #上传到gitpages的仓库
 ```
 
 ## 本地调试
+由于提交到git pages上会有延时，我们可以在localhost:4000中看到生成后的效果
 ```Shell
 hexo g
 hexo s

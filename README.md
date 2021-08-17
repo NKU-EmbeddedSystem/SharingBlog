@@ -24,13 +24,13 @@ cover: false
 toc: false
 mathjax: true
 tags:
-  - 读书
+  - 内存管理
 date: 2021-08-11 09:27:51
 img:
 coverImg:
 password:
 summary:
-categories:
+categories: 读书
 ---
 ```
 

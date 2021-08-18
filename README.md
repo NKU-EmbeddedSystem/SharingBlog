@@ -15,6 +15,17 @@ cd SharingBlog
 hexo new post "博客名"
 ```
 
+### 如果不想写markdown，想直接上传PPT的话，就按照以下步骤
+1. 将PPT导出为PDF
+2. 把PDF放进source/_posts/ppts文件夹中
+3. 在source/_posts/往期PPT.md中增加一行
+```Markdown
+[标题](/share/ppts/文件名.pdf)
+```
+4. 跳到步骤[更改并提交到网页](##更改并提交到网页)
+
+感觉可能有显示资源文件夹/share/ppts的方法，不过我不会-_-
+
 ## 编辑博客
 内容以Markdown格式编写即可。需要改一下文件头，title和author改成自己的名字，categories写读书或者是论文分享, tags加自己想要的，以-间隔。别的会由hexo自动生成。
 ```Markdown
